@@ -8,7 +8,7 @@ export function ContactSection() {
       <Container className="grid gap-14 lg:grid-cols-[0.8fr_1.2fr] lg:items-start">
         <div>
           <p className="mb-4 text-[10px] font-bold uppercase tracking-[0.38em] text-brand">
-            Tem um projeto em mente?
+            Pronto para tirar sua ideia do papel?
           </p>
           <h2 className="font-display text-5xl leading-[0.95] font-black uppercase text-white sm:text-6xl">
             Vamos construir algo <span className="text-brand">incrível</span> juntos.

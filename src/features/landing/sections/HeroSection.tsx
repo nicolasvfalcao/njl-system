@@ -17,20 +17,20 @@ export function HeroSection() {
       <Container className="relative grid items-center gap-16 py-24 lg:grid-cols-[0.9fr_1.1fr] lg:py-20">
         <div className="max-w-xl">
           <p className="mb-5 text-[10px] font-bold uppercase tracking-[0.38em] text-brand">
-            A sua ideia. Nossa tecnologia.
+           Build · Code · Innovate
           </p>
           <h1 className="font-display text-[clamp(3.15rem,7vw,6.2rem)] leading-[0.92] font-black tracking-[-0.045em] text-white uppercase">
             Transformamos ideias em produtos <span className="text-brand">digitais</span>{' '}
             excepcionais.
           </h1>
           <p className="mt-7 max-w-md text-sm leading-6 text-white/55 sm:text-base">
-            Estratégia, design e desenvolvimento trabalhando juntos para criar
-            experiências que movem negócios.
+            Desenvolvimento de software sob medida com foco em
+design inteligente, performance e experiência do usuário.
           </p>
           <div className="mt-9 flex flex-col gap-3 min-[420px]:flex-row">
-            <ButtonLink href="#contato">Fale com a gente</ButtonLink>
+            <ButtonLink href="#contato">VER CASES</ButtonLink>
             <ButtonLink href="#portfolio" variant="ghost">
-              Conheça nossos projetos
+              Falar com especialista
             </ButtonLink>
           </div>
         </div>

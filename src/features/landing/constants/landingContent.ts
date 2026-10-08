@@ -1,23 +1,23 @@
 import type { ProcessStep, Project, Service } from '@/features/landing/types';
 
 export const navigation = [
-  { label: 'Início', href: '#inicio' },
-  { label: 'Serviços', href: '#servicos' },
-  { label: 'Processo', href: '#processo' },
-  { label: 'Portfólio', href: '#portfolio' },
+  { label: 'SERVIÇOS', href: '#servicos' },
+  { label: 'PROCESSO', href: '#processo' },
+  { label: 'PORTFÓLIO', href: '#portfolio' },
+  { label: 'CONTATO', href: '#contato' },
 ];
 
 export const services: Service[] = [
   {
-    title: 'Desenvolvimento web',
+    title: 'Desenvolvimento',
     description:
-      'Sites e plataformas rápidos, responsivos e preparados para transformar visitas em oportunidades.',
+      'Código limpo, escalável e seguro. Aplicações web e mobile com altaperformance e tecnologia de ponta.',
     iconSrc: '/icontype.svg',
   },
   {
     title: 'UI/UX Design',
     description:
-      'Interfaces claras e marcantes, construídas a partir da estratégia e das necessidades do seu público.',
+      'Experiências intuitivas que conectam usuários ao que realmente importa. Pesquisa, prototipação e design centrado em pessoas.',
     iconSrc: '/iconUx.svg',
     iconFrameSrc: '/Retângulo.svg',
   },
@@ -27,46 +27,46 @@ export const processSteps: ProcessStep[] = [
   {
     number: '01',
     title: 'Descoberta',
-    description: 'Entendemos o desafio e os objetivos.',
+    description: 'Entendemos o problema, objetivos e o contexto do seu negócio.',
   },
   {
     number: '02',
     title: 'Estratégia',
-    description: 'Definimos o melhor caminho para o produto.',
+    description: 'Definimos a solução ideal com foco em valor, viabilidade e experiência.',
   },
   {
     number: '03',
-    title: 'Design',
-    description: 'Criamos uma experiência útil e memorável.',
+    title: 'Protótipo',
+    description: 'Criamos interfaces intuitivas e protótipos validados com usuários reais.',
   },
   {
     number: '04',
     title: 'Desenvolvimento',
-    description: 'Transformamos o conceito em tecnologia.',
+    description: 'Transformamos o design em código de alta qualidade com hagilidade e segurança.',
   },
-  { number: '05', title: 'Evolução', description: 'Medimos, aprendemos e aprimoramos.' },
+  { number: '05', title: 'Entregah', description: 'Entregamos, acompanhamos resultados e evoluímos continuamente.' },
 ];
 
 export const projects: Project[] = [
   {
-    title: 'Domini',
-    category: 'Produto digital',
+    title: 'Case #1',
+    category: 'PLATAFORMA WEB',
     description:
-      'Uma experiência digital completa para fortalecer comunidade e propósito.',
+      'Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor sit amet consectetur adipiscing elit quisque faucibus.',
     accent: 'from-[#c9ff35]/25 via-[#12170b] to-black',
   },
   {
-    title: 'NJL Dashboard',
-    category: 'Sistema web',
+    title: 'Case #2',
+    category: 'APP MOBILE',
     description:
-      'Dados essenciais organizados em uma interface objetiva para decisões mais rápidas.',
+      'Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor sit amet consectetur adipiscing elit quisque faucibus.',
     accent: 'from-white/15 via-[#111] to-black',
   },
   {
-    title: 'Commerce Lab',
-    category: 'E-commerce',
+    title: 'Case #3',
+    category: 'E-COMMERCE',
     description:
-      'Jornada de compra fluida, performance sólida e identidade visual consistente.',
+      'Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor sit amet consectetur adipiscing elit quisque faucibus.',
     accent: 'from-[#6a7d36]/25 via-[#10120d] to-black',
   },
 ];

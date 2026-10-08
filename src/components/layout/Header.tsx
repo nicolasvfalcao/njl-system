@@ -32,7 +32,7 @@ export function Header() {
         </nav>
 
         <ButtonLink className="hidden md:inline-flex" href="#contato">
-          Iniciar projeto
+          Vamos conversar
         </ButtonLink>
 
         <button

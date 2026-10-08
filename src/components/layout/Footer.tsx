@@ -1,12 +1,12 @@
-import { Aperture, Code2, Link } from 'lucide-react';
-
 import { BrandMark } from '@/components/ui/BrandMark';
 import { Container } from '@/components/ui/Container';
 
+import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
+
 const socials = [
-  { label: 'LinkedIn', Icon: Link },
-  { label: 'GitHub', Icon: Code2 },
-  { label: 'Instagram', Icon: Aperture },
+  { label: 'LinkedIn', Icon: FaLinkedin },
+  { label: 'GitHub', Icon: FaGithub },
+  { label: 'Instagram', Icon: FaInstagram },
 ];
 
 export function Footer() {
@@ -16,7 +16,7 @@ export function Footer() {
         <div>
           <BrandMark compact />
           <p className="mt-4 max-w-xs text-xs leading-5 text-white/45">
-            Soluções digitais que transformam ideias em resultados.
+            © {new Date().getFullYear()} NJL System. Todos os direitos reservados.           
           </p>
         </div>
 
@@ -34,7 +34,7 @@ export function Footer() {
             ))}
           </div>
           <p className="text-[10px] uppercase tracking-[0.16em] text-white/35">
-            © {new Date().getFullYear()} NJL System. Todos os direitos reservados.
+            Política de Privacidade  |  Termos de Uso
           </p>
         </div>
       </Container>
